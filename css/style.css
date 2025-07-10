@@ -4396,3 +4396,131 @@ visibility: hidden;
   /* filter: brightness(1.1);
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3); */
 }
+
+
+/* Our Work */
+.our-work-section {
+    padding: 100px 0;
+    background-color: #0d0d0d;
+    color: #fff;
+}
+
+.luxury-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.luxury-subheading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 60px;
+}
+
+.work-item {
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.work-item:hover {
+    transform: scale(1.02);
+}
+
+.video-wrapper iframe,
+.luxury-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Default 16:9 ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Team section */
+.team-section {
+    /* background-color: #0d0d0d; */
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.team-heading {
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+
+.team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.team-member img {
+    width: 100%;
+    max-height: 500px;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.team-member:hover img {
+    transform: scale(1.05);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 13, 13, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+
+.team-member:hover .overlay {
+    opacity: 1;
+}
+
+.member-info h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.member-info p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc;
+}
+.instagram-embed-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
